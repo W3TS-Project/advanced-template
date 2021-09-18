@@ -37,7 +37,7 @@
         },
         "declaration": false
     },
-    "include": ["./src", "main.ts"],
+    "include": ["node_modules/obj-edit", "node_modules/ident-wrap-ts", "./src", "main.ts"],
     "tstl": {
         "luaTarget": "5.3",
         "noHeader": true,
