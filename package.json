@@ -44,6 +44,7 @@
     }
   },
   "dependencies": {
+    "ceres-ts-utils": "file:../ceres-ts-utils",
     "ident-wrap-ts": "file:../ident-wrap-ts",
     "obj-edit": "file:../obj-edit",
     "war3-types": "^1.0.4"

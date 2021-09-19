@@ -1,1 +1,1 @@
-print('Hello TypeScriptToLua!')
+import "obj-edit/src/test"

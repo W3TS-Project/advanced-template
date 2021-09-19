@@ -28,20 +28,25 @@
         "allowJs": true,
         "alwaysStrict": true,
         "checkJs": false,
-        "moduleResolution": "node",
+        "moduleResolution": "classic",
         "outDir": "target/compiled",
-        "rootDir": "./",
-        "baseUrl": "node_modules",
+        "baseUrl": "./node_modules",
         "paths": {
             "*": ["./*/src/index", "./*/lib/index", "./*/index", "./*"]
         },
         "declaration": false
     },
-    "include": ["node_modules/obj-edit", "node_modules/ident-wrap-ts", "./src", "main.ts"],
+    "include": [
+        "node_modules/ceres-ts-utils",
+        "node_modules/obj-edit",
+        "node_modules/ident-wrap-ts",
+        "src",
+        "main.ts"
+    ],
     "tstl": {
         "luaTarget": "5.3",
         "noHeader": true,
         "luaLibImport": "require",
-        "noImplicitSelf": true
+        "noImplicitSelf": true,
     }
 }
